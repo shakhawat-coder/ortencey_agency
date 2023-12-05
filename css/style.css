@@ -134,17 +134,18 @@ h1,h2,h3,h4,h5,h6,p{
 /* ======================nav section=================== */
 .nav{
     background: #333333;
-    height: 100px;
-    overflow-x: hidden;
+    /* height: 100px; */
+    overflow-X: hidden;
+    /* padding: 17px 0; */
 }
 .nav .header_bg{
     width: 110vw;
     height: 100px;
 }
 .navbar{
-    padding: 0;
+    padding: 17px 0;
     height: 100px;
-    overflow: visible;
+    /* overflow: visible; */
 }
 .navbar .nav-link{
     color: #1A1A1A;
@@ -289,7 +290,8 @@ h1,h2,h3,h4,h5,h6,p{
 .about_wrapper{
     padding-bottom: 120px;
 }
-.about_content .check i{
+.about_content .check i,
+.tab_content_bottom .check i{
     color: #fff;
     font-weight: bold;
     display: flex;
@@ -305,7 +307,8 @@ h1,h2,h3,h4,h5,h6,p{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.about_content .check p{
+.about_content .check p,
+.tab_content_bottom .check p{
     color:  #1A1A1A;
     font-family: var(--DmSans);
     padding-bottom: 6px;
