@@ -5,66 +5,7 @@
 .nav{
     background: #a3a3a3;
 }
-#about_banner{
-    background: #a3a3a3;
-    overflow: hidden;
-}
-#about_banner .banner_wrapper{
-    padding: 166px 0 154px;
-}
-#about_banner .banner_wrapper h2{
-    color: #FFF;
-    text-align: center;
-    font-family: var(--Nunito);
-    font-size: 46px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 41px; 
-}
-#about_banner .banner_wrapper a{
-    color: #FFF;
-    font-family: var(--DmSans);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 41px;
-}
-#about_banner .banner_wrapper p{
-    background:  linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: var(--DmSans);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 41px;
-}
 
-.circle1{
-    width: 182px;
-    height: 175px;
-    bottom: -90px;
-    left: -80px;
-    background:  linear-gradient(90deg, #0F7AEF 0.03%, #6CE3FF 100.09%);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-.circle2{
-    width: 182px;
-    height: 175px;
-    top: -90px;
-    right: -80px;
-    background:  linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
 
 /* =================About section============= */
 #about {
@@ -152,6 +93,13 @@
     --bs-nav-tabs-border-width: 0;
 }
 .tab_product .nav-link{
+    
+    font-family: var(--DmSans);
+    color: #6B6161;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     padding: 9px 16px;
     background:  #F4F4FF;
     border-radius: 500px;
@@ -167,6 +115,7 @@
 }
 .tab_product .nav-link:hover,
 .tab_product .nav-link.active{
+    color:#FFF;
     background:  linear-gradient(90deg, #FE651B -0.02%, #FFAA52 100.06%);
 
 }
