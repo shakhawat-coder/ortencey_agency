@@ -31,6 +31,22 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* ====================Common Css=================== */
+.common_p{
+    color:  #6B6161;
+    font-family: var(--DmSans);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.common_h5{
+    color: #1A1A1A;
+    font-family: var(--Nunito);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 /* =============Common Section header =========== */
 .section_header h6{
     color:  #3661FC;
@@ -352,7 +368,8 @@ h1,h2,h3,h4,h5,h6,p{
     padding-bottom: 120px;
 }
 .about_content .check i,
-.tab_content_bottom .check i{
+.tab_content_bottom .check i,
+#service_details .check i{
     color: #fff;
     font-weight: bold;
     display: flex;
@@ -369,7 +386,8 @@ h1,h2,h3,h4,h5,h6,p{
     -o-border-radius: 50%;
 }
 .about_content .check p,
-.tab_content_bottom .check p{
+.tab_content_bottom .check p,
+#service_details .check p{
     color:  #1A1A1A;
     font-family: var(--DmSans);
     padding-bottom: 6px;
